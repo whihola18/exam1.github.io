@@ -1,0 +1,34 @@
+#about-us, #product, #faq, #contact-us {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.judul {
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#product .col-md-4 .card {
+    transition: 1.5s;
+}
+
+#product .col-md-4 .card:hover {
+    transform: translateY(-30px);
+}
+
+#contact-us {
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
